@@ -1,0 +1,15 @@
+app:
+  name: poi-map-app
+  namespace: blues-man-demo
+  cluster: .apps.summit23.0x74.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23DevLab/blues-man-poi-map-app
+  org: Summit23DevLab
+  name: blues-man-poi-map-app
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: blues-man-demo/poi-map-app
+  tag: latest
